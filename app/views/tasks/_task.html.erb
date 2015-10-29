@@ -1,0 +1,6 @@
+<%= content_tag_for(:li, task) do %>
+	<p>
+		<strong>Name:</strong>
+		<%= link_to task.name, task %>
+	</p>
+<% end %>
